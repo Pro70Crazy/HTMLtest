@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <title>what is this</title>
+  </head>
+  <body>
+    <p>nani</p>
+    <!--source used: Windows Server 2003 quiz source code-->
+    <!--only works on desktop browsers-->   <!-
+    <script language="JavaScript">
+      function right(e) {
+        var msg = "DON'T RIGHT CLICK YOU IDIOT!! RIGHT CLICKING IS NOT ALLOWED!!!!!";
+        if (navigator.appName == 'Google Chrome' && event.button==2)
+        {alert(msg); // Delete this line to disable but not alert user
+        return false;
+        }
+        return true;
+        }
+        document.onmousedown = right;
+      //->
+    </script>
+  </body>
+</html>
