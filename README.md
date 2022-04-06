@@ -1,3 +1,6 @@
+# Welcome
+Hi and Welcome. This folder contains test files for Web Hosting. You can even submit your file if you want. ok thats all I can tell. Enjoy.
+
 # HTMLtest
 Contains HTML and PHP files for you to test.
 
@@ -9,6 +12,3 @@ Choose a test file and it will run it for you. here are the files
 
 # Contribute
 You can share ideas of fixing some broken codes in the discussions tab.
-
-# WIP
-The rest of it contents are not finished. We will keep you updated!
