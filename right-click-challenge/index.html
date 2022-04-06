@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <title>The Right Click Challenge</title>
+  </head>
+  <body>
+    <script language=Javascript>
+      <!-
+      var i=1;
+      function right() {
+        if (navigator.appName == 'Google Chrome' && event.button==2)
+        {
+        i++;
+          alert(i);
+        document.Form1.T1.value=1;
+        }
+      }
+      document.onmousedown = right;
+      //->
+    </script>
+    <h1>THE RIGHT CLICKING CHALLENGE!!!!</h1>
+    <h3>Right click as many times as you can</h3>
+    <hr/>
+    <p>If you give up you can click <b>I Give Up</b>.</p>
+    <form name="Form1" action="/HTMLtest/right-clicking-challeng/score.php method" = post >
+      Today's Right-click counts: 
+      <input type=text name="T1" value = i readonly >
+         <p>
+      <input type="submit" name="Submit" value="I Give Up">
+         </p>
+    </form>
+  </body>
+</html>
